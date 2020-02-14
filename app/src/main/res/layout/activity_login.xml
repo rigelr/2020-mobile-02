@@ -8,6 +8,7 @@
 
 
     <ImageView
+        android:id="@+id/iv"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_width="match_parent"
@@ -38,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Continuing as"
-        app:layout_constraintTop_toBottomOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/iv"
         android:textSize="30sp"
         android:layout_marginLeft="20dp"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -94,6 +95,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginRight="30dp"
         android:text="Continue with Google"
+        android:paddingLeft="10dp"
         android:textColor="#D32F2F"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn1"
@@ -103,6 +105,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
+        android:paddingLeft="10dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/btn_white_large"
         android:drawableStart="@drawable/fb_logo"
